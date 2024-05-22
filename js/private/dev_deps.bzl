@@ -11,8 +11,8 @@ def rules_js_dev_dependencies():
     "Fetch repositories used for developing the rules"
     http_archive(
         name = "io_bazel_rules_go",
-        sha256 = "80a98277ad1311dacd837f9b16db62887702e9f1d1c4c9f796d0121a46c8e184",
-        urls = ["https://github.com/bazelbuild/rules_go/releases/download/v0.46.0/rules_go-v0.46.0.zip"],
+        sha256 = "33acc4ae0f70502db4b893c9fc1dd7a9bf998c23e7ff2c4517741d4049a976f8",
+        urls = ["https://github.com/bazelbuild/rules_go/releases/download/v0.48.0/rules_go-v0.48.0.zip"],
     )
 
     http_archive(
@@ -23,14 +23,14 @@ def rules_js_dev_dependencies():
 
     http_archive(
         name = "bazel_skylib",
-        sha256 = "cd55a062e763b9349921f0f5db8c3933288dc8ba4f76dd9416aac68acee3cb94",
-        urls = ["https://github.com/bazelbuild/bazel-skylib/releases/download/1.5.0/bazel-skylib-1.5.0.tar.gz"],
+        sha256 = "9f38886a40548c6e96c106b752f242130ee11aaa068a56ba7e56f4511f33e4f2",
+        urls = ["https://github.com/bazelbuild/bazel-skylib/releases/download/1.6.1/bazel-skylib-1.6.1.tar.gz"],
     )
 
     http_archive(
         name = "bazel_skylib_gazelle_plugin",
-        sha256 = "747addf3f508186234f6232674dd7786743efb8c68619aece5fb0cac97b8f415",
-        urls = ["https://github.com/bazelbuild/bazel-skylib/releases/download/1.5.0/bazel-skylib-gazelle-plugin-1.5.0.tar.gz"],
+        sha256 = "47337121076d4fc9c82079cde046431f7b1d2dd18df9c46b674522a9202d335e",
+        urls = ["https://github.com/bazelbuild/bazel-skylib/releases/download/1.6.1/bazel-skylib-gazelle-plugin-1.6.1.tar.gz"],
     )
 
     http_archive(
